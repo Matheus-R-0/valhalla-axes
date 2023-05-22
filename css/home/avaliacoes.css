@@ -1,0 +1,49 @@
+.avaliacoes-bg {
+  background: var(--cor-c1);
+}
+
+.avaliacoes h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: var(--cor-c13);
+}
+
+.avaliacoes-lista ul {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.avaliacoes-lista ul li {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: var(--cor-w);
+  border: 1px solid var(--cor-c4);
+  border-radius: 6px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.avaliacoes-lista p {
+  max-width: 30ch;
+  color: var(cor-c12);
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.avaliacoes-lista span {
+  color: var(--cor-c8);
+}
+
+.estrelas {
+  display: flex;
+  gap: 2px;
+}
+
+@media (max-width:400px) {
+  .avaliacoes-lista img {
+    width: 24px;
+    height: 24px;
+  }
+}

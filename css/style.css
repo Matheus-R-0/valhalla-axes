@@ -1,0 +1,23 @@
+@import './global/reset.css';
+
+@import './global/utilitario.css';
+
+@import './global/cores.css';
+
+@import './global/tipografia.css';
+
+/*Home*/
+
+@import './home/header.css';
+
+@import './home/intro.css';
+
+@import './home/vantagens.css';
+
+@import './home/avaliacoes.css';
+
+@import './home/footer.css';
+
+/*Machados*/
+
+@import './machados/machados.css';

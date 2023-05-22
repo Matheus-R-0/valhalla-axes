@@ -1,0 +1,61 @@
+.vantagens {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  gap: 40px;
+}
+
+.vantagens img {
+  align-self: center;
+}
+
+.vantagens-bg {
+  background: var(--cor-c13);
+  color: var(--cor-w);
+}
+
+.vantagens-text h2 {
+  color: var(--cor-w);
+}
+
+.vantagens-text span {
+  color: var(--cor-p5);
+}
+
+.vantagens-text p {
+  color: var(--cor-c6);
+  max-width: 50ch;
+}
+
+.vantagens-text a {
+  color: var(--cor-p5);
+  text-transform: uppercase;
+  font: 700 1.5rem/1.7 "Nunito Sans", sans-serif;
+  border-bottom: solid 4px;
+  transition: 0.1s ease-in-out;
+}
+
+.vantagens-text a:hover {
+  color: var(--cor-p3);
+}
+
+@media (max-width: 1000px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .vantagens img {
+    display: none;
+  }
+}
+
+@media (max-width:800px) {
+  .vantagens-text a {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width:400px) {
+  .vantagens-text a {
+    font-size: 1rem;
+  }
+}

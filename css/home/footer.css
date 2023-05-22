@@ -1,0 +1,81 @@
+.footer {
+  background: var(--cor-b);
+  color: white;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contato h4 {
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.contato ul li {
+  color: var(--cor-c6);
+  padding-bottom: 16px;
+  transition: 0.1s ease-in-out;
+}
+
+.contato ul li:hover {
+  color: var(--cor-c1);
+  cursor: pointer;
+}
+
+.contato-lista li:nth-child(3) {
+  position: relative;
+}
+
+.contato-lista li:nth-child(3)::before {
+  content: "";
+  width: 240px;
+  height: 1px;
+  background: var(--cor-c12);
+  bottom: 8px;
+  position: absolute;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+
+@media (max-width:1000px) {
+  .contato {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .navegaçao-lista {
+    grid-column: 2;
+  }
+}
+
+@media (max-width:800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+  .navegaçao-lista {
+    grid-column: 1;
+  }
+}
+
+@media (max-width:400px) {
+  .contato {
+    gap: 20px;
+  }
+  .contato h4 {
+    margin-bottom: 20px;
+  }
+  .redes-socias {
+    width: 12px;
+    height: 12px;
+  }
+  .contato-lista li:nth-child(3)::before {
+    width: 200px;
+    bottom: 8px;
+  }
+}
+
