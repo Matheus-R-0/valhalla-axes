@@ -6,6 +6,8 @@
 
 .vantagens img {
   align-self: center;
+  height: 100%;
+  object-fit: cover;
 }
 
 .vantagens-bg {
