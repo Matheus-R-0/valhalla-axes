@@ -4,6 +4,13 @@
   box-sizing: border-box;
   padding: 80px 40px;
 }
+.container-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
 .titulo {
   max-width: 1200px;

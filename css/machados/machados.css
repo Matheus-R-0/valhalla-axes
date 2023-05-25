@@ -80,7 +80,6 @@
   grid-template-columns: 1fr 2fr;
   align-content: start;
   gap: 40px;
-  margin-bottom: 80px;
 }
 
 .machado-image {
@@ -119,7 +118,7 @@
 
 .btn.seta::after {
   content: "";
-  background-image: url(/img/icones/seta.svg);
+  background-image: url(../../img/icones/seta.svg);
   display: inline-block;
   width: 18px;
   height: 14px;
@@ -129,10 +128,6 @@
 
 .btn.seta:hover::after {
   transform: translateX(4px);
-}
-
-.machados-itens {
-  padding-bottom: 80px;
 }
 
 .item {
@@ -199,5 +194,4 @@
   .machado-box-bg {
     background: var(--cor-b)
   }
-  
 }
