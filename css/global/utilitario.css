@@ -5,6 +5,18 @@
   padding: 80px 40px;
 }
 
+.titulo {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: var(--cor-w);
+  padding: 40px 40px;
+}
+
+.titulo-bg {
+  background: var(--cor-c13);
+}
+
 @media (max-width:800px) {
   .container {
     padding: 60px 40px;
@@ -14,6 +26,9 @@
   .container {
     padding: 40px 20px;
   }
+  .titulo {
+    padding: 20px 20px;
+  }
 }
 
 .btn {
@@ -21,7 +36,7 @@
   display: block;
   padding: 18px 36px;
   border-radius: 4px;
-  columns: var(--cor-p8);
+  color: var(--cor-p10);
   text-transform: uppercase;
   font: 700 1.5rem/1.17 "Nunito Sans", sans-serif;
 }
